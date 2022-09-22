@@ -1,5 +1,3 @@
-
-
 def numbers_filter(lines):
     nums = []
     new_list = []
@@ -24,8 +22,9 @@ def numbers_filter(lines):
 
     if command == "positive":
         for number in nums:
-            if number >  0:
+            if number >= 0:
                 new_list.append(number)
     return new_list
+
 
 print(numbers_filter(lines=int(input())))
