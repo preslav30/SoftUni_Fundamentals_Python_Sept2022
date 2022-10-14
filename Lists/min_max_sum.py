@@ -17,5 +17,5 @@ def min_max_sum(sequence):
 
 
 the_sequence = list(map(int, input().split()))
-print(min_max_sum(the_sequence))
+min_max_sum(the_sequence)
 
