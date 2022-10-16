@@ -1,6 +1,7 @@
 def sorting(my_str):
-    sorted_list = sorted(my_str, key=len, reverse=True)
-    return sorted_list
+    by_name = sorted(my_str)
+    by_length = sorted(by_name, key=len, reverse=True)
+    return by_length
 
 
 the_str = input().split(", ")
