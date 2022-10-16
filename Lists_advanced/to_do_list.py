@@ -1,11 +1,15 @@
 def to_do(command):
-    notes = [None for num in range(1, 11)]
+    notes = [0 for num in range(1, 11)]
     while command != "End":
-        importance = int(command[0])
-        notes[importance - 1] = importance
+        command = command.split("-")
+        note_position = int(command[0]) - 1
+        note = command[1]
+        notes.pop(note_position)
+        notes.insert(note_position, note)
+        command = input()
+    notes = list(filter(lambda non_zero: non_zero != 0, notes))
+    return notes
 
 
-
-
-the_command = input().split("-")
+the_command = input()
 print(to_do(the_command))
