@@ -1,5 +1,5 @@
 def even(nums):
-    filtered = [nums.index(num) for num in nums if num % 2 == 0]
+    filtered = [i for i, num in enumerate(nums) if num % 2 == 0]
     return filtered
 
 
