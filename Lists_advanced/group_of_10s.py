@@ -9,3 +9,5 @@ while numbers:
         numbers.remove(num)
     print(f"Group of {group}'s: {new_list}")
     group += 10
+
+
