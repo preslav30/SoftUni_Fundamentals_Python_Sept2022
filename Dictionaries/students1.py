@@ -9,5 +9,5 @@ while True:
     course = students_list[2]
     students_dict[name] = [id, course]
 for key, value in students_dict.items():
-    if students_dict[key][1] == " ".join(final_course.split("_")):
-        print(f"{key} - {students_dict[key][0]}")
+    if value[1] == " ".join(final_course.split("_")):
+        print(f"{key} - {value[0]}")
