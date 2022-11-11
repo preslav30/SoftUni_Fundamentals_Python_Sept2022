@@ -1,18 +1,6 @@
-import json
-
-# initialising dictionary
-test1 = {"testname": "akshat",
-         "test2name": "manjeet",
-         "test3name": "nikhil"}
-
-# print original dictionary
-print(type(test1))
-print("initial dictionary = ", test1)
-
-# convert dictionary into string
-# using json.dumps()
-result = json.dumps(test1)
-
-# printing result as string
-print("\n", type(result))
-print("final string = ", result)
+force_and_users = {'Light': ['Peter'], 'Dark': ['Kim']}
+force_user = "Kim"
+for side, user in force_and_users.items():
+    if force_user in user:
+        user.remove(force_user)
+print(force_and_users)
