@@ -1,6 +1,6 @@
 import re
 
 names = input()
-regex = r"\b[A-Z][a-z]+\s[A-Z][a-z]+\b"
+regex = r"\+359 2 \d{3} \d{4}\b|\+359-2-\d{3}-\d{4}\b"
 matches = re.findall(regex, names)
-print(" ".join(matches))
+print(", ".join(matches))
