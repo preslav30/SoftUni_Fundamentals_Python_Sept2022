@@ -10,4 +10,4 @@ occurrences = {}
 for i in words:
     occurrences[i] = words.count(i)
 for word, occurrence in occurrences.items():
-    print(f"{word} |" + "*" * occurrence) 
+    print(f"{word} |" + "*" * occurrence)
