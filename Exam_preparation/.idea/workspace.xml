@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b405915-648c-4dd7-926c-120aafb1cff7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/imitation_game432.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/the_pianist420.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
